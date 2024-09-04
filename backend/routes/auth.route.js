@@ -12,8 +12,8 @@ router.get ("/login", (req, res) => {
 });
 
 
-router.get ("/Signout", (req, res) => {
-    res.send("Signout route");
+router.get ("/logout", (req, res) => {
+    res.send("Logout route");
 });
 
 export default router;
