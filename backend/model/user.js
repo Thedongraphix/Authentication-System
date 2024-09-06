@@ -20,8 +20,12 @@ const userSchema = new mongoose.Schema({
     isVerified:{
         type:Boolean,
         default:false
-    }
-    
+    },
+    resetpasswordToken: String,
+    resetpasswordExpiresAt: Date,
+    verificationToken: String,
+    verificationTokenExpiresAt: Date,
+
 
 },{
     timestamps: true
